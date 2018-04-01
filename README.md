@@ -3,4 +3,4 @@
 
 
 
-<img src="https://github.com/SlowDony/SDMediaSelectionBar/blob/master/SDMediaSelectionBar/MediaSelectionBar/SDMediaViewBar.gif" width="50%" height="50%">
+<img src="https://github.com/SlowDony/SDMediaSelectionBar/blob/master/SDMediaSelectionBar/MediaSelectionBar/SDMediaBar.gif" width="50%" height="50%">
