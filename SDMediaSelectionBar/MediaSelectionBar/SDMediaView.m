@@ -8,6 +8,7 @@
 
 #import "SDMediaView.h"
 
+
 @implementation SDMediaView
 
 /*
@@ -37,17 +38,22 @@
     [self addSubview:buttonImage];
     
     UIImageView *playImage = [[UIImageView alloc] init];
-    playImage.image = [UIImage imageNamed:@"YomoFreezeVideoSelect"];
-   
+    playImage.image = [UIImage imageNamed:@"VideoPlay"];
     playImage.hidden = YES;
-    
     self.playImage = playImage;
     [self addSubview:playImage];
     
+    //删除按钮
+    UIButton *deletebtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [deletebtn setImage:[UIImage imageNamed:@"ImageDelete"] forState:UIControlStateNormal];
+    self.deleteBtn = deletebtn;
+    [self addSubview: deletebtn];
+   
     
 }
 
 - (void)setImageButtonDatas:(SDMediaModel *)model{
+    
     if (model.isVideo){
         self.playImage.hidden = NO;
         self.buttonBgImage.image = model.videoImage;
@@ -59,10 +65,27 @@
     
 }
 
+-(void)setMediaType:(MediaType)mediaType{
+    _mediaType = mediaType;
+    if (mediaType == MediaTypeScrollView){
+        self.deleteBtn.hidden = NO;
+    }else {
+        self.deleteBtn.hidden = YES;
+    }
+}
+
 - (void)layoutSubviews{
     [super layoutSubviews];
     self.buttonBgImage.frame = self.bounds;
-    self.playImage.frame = CGRectMake((CGRectGetWidth(self.buttonBgImage.frame)-40)/2,(CGRectGetHeight(self.buttonBgImage.frame)-40)/2 , 40, 40);
+    CGFloat width = 0;
+    if (self.mediaType ==MediaTypeSelectionBar){
+        width = 20;
+    }else {
+         width = 40;
+    }
+    
+    self.playImage.frame = CGRectMake((CGRectGetWidth(self.buttonBgImage.frame)-width)/2,(CGRectGetHeight(self.buttonBgImage.frame)-width)/2 , width, width);
+    self.deleteBtn.frame = CGRectMake(self.bounds.size.width-40, 0, 40, 40);
 }
 
 @end

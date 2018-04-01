@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SDMediaSelectionBar/MediaSelectionBar/SDMediaView.m"
-            timestampString = "543057234.758871"
+            filePath = "SDMediaSelectionBar/SDSendTwitterViewController.m"
+            timestampString = "544272484.718107"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "-setImageButtonDatas:"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "-SDMediaSelectionBarImageSelect:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

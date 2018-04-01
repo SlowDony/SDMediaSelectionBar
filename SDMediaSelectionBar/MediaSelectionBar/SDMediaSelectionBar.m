@@ -115,6 +115,7 @@ UIScrollViewDelegate
         SDMediaView *imageBtn =nil;
         if (i>=currentImageViewsCount) { //imageV不够用需要创建
             imageBtn =[[SDMediaView alloc]init];
+            imageBtn.mediaType = MediaTypeSelectionBar;
             [self.imageScrollView addSubview:imageBtn];
             [self.imageViewAllArrs addObject:imageBtn];
             

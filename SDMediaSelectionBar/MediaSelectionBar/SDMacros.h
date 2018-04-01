@@ -10,7 +10,7 @@
 #define SDMacros_h
 #define SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT    [UIScreen mainScreen].bounds.size.height
-
+#define SafeAreaTopHeight (SCREEN_HEIGHT == 812 ? 88 : 64)
 
 #define KWeakself __weak typeof(self) weakSelf = self;
 
