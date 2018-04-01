@@ -22,7 +22,7 @@
 		EFC7CB92205C2A580076E829 /* SDMediaSelectionBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7CB91205C2A580076E829 /* SDMediaSelectionBarUITests.m */; };
 		EFC7CBA5205C32220076E829 /* SDSendTwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC7CBA4205C32220076E829 /* SDSendTwitterViewController.m */; };
 		EFEE3A142070C5760074824E /* SDMediaScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFEE3A132070C5760074824E /* SDMediaScrollView.m */; };
-		EFEE3A192070F0AF0074824E /* SDMediaViewBar.gif in Resources */ = {isa = PBXBuildFile; fileRef = EFEE3A182070F0AF0074824E /* SDMediaViewBar.gif */; };
+		EFEE3A1B207116100074824E /* SDMediaBar.gif in Resources */ = {isa = PBXBuildFile; fileRef = EFEE3A1A207116100074824E /* SDMediaBar.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +73,7 @@
 		EFC7CBA4205C32220076E829 /* SDSendTwitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSendTwitterViewController.m; sourceTree = "<group>"; };
 		EFEE3A122070C5760074824E /* SDMediaScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDMediaScrollView.h; sourceTree = "<group>"; };
 		EFEE3A132070C5760074824E /* SDMediaScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDMediaScrollView.m; sourceTree = "<group>"; };
-		EFEE3A182070F0AF0074824E /* SDMediaViewBar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SDMediaViewBar.gif; sourceTree = "<group>"; };
+		EFEE3A1A207116100074824E /* SDMediaBar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SDMediaBar.gif; sourceTree = "<group>"; };
 		EFFCE347205E53C20092156F /* SDMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +105,7 @@
 		EF0088AF205D696B002C0364 /* MediaSelectionBar */ = {
 			isa = PBXGroup;
 			children = (
-				EFEE3A182070F0AF0074824E /* SDMediaViewBar.gif */,
+				EFEE3A1A207116100074824E /* SDMediaBar.gif */,
 				EFFCE347205E53C20092156F /* SDMacros.h */,
 				EF0088B0205D696B002C0364 /* SDBaseTextView.h */,
 				EF0088B1205D696B002C0364 /* SDBaseTextView.m */,
@@ -287,7 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC7CB7A205C2A580076E829 /* LaunchScreen.storyboard in Resources */,
-				EFEE3A192070F0AF0074824E /* SDMediaViewBar.gif in Resources */,
+				EFEE3A1B207116100074824E /* SDMediaBar.gif in Resources */,
 				EFC7CB77205C2A580076E829 /* Assets.xcassets in Resources */,
 				EFC7CB75205C2A580076E829 /* Main.storyboard in Resources */,
 			);
